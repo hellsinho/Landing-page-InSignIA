@@ -7,6 +7,7 @@ import DemoSection from "@/components/DemoSection";
 import TeamSection from "@/components/TeamSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import PitchSection from "@/components/PitchSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <TechSection />
+      <PitchSection />
       <DemoSection />
       <TeamSection />
       <ContactSection />

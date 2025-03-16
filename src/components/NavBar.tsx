@@ -14,7 +14,7 @@ export default function NavBar() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             // Verifica a seção atual e define o estilo da Navbar
-            if (["sobre", "tecnologias", "equipe", "contato"].includes(entry.target.id)) {
+            if (["sobre", "tecnologias", "pitch","equipe", "contato"].includes(entry.target.id)) {
               setNavbarStyle("dark"); // Altera para estilo escuro
             } else {
               setNavbarStyle("light"); // Altera para estilo claro
@@ -68,6 +68,14 @@ export default function NavBar() {
             } hover:text-purple-500`}
           >
             Tecnologias
+          </Link>
+          <Link
+            href="#pitch"
+            className={`transition-all duration-300 ${
+              navbarStyle === "dark" ? "text-white" : "text-gray-300"
+            } hover:text-purple-500`}
+          >
+            Pitch
           </Link>
           <Link
             href="#demonstracao"
