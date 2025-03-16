@@ -23,9 +23,9 @@ export default function AboutSection() {
               Nosso objetivo é promover a inclusão e facilitar a comunicação entre surdos e ouvintes,
               tornando a interação mais acessível e natural.
             </p>
-            <a href="#demonstracao">
+            <a href="https://github.com/italopimentel/InsignIA-App" target="_blank" rel="noopener noreferrer">
             <Button className="mt-4 bg-purple-600 text-white hover:bg-purple-700 cursor-pointer transition-all duration-500 ease-in-out">
-              Veja funcionando!
+              Repositório do projeto
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             </a>

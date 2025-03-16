@@ -46,10 +46,12 @@ export default function HeroSection() {
             </a>
 
             {/* Botão "Experimente Agora" */}
+            <a href="#demonstracao">
             <Button className="mt-6 bg-white text-black hover:bg-gray-200 cursor-pointer transition-all duration-500 ease-in-out">
-              Experimente Agora
+              Demonstração
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
+            </a>
           </motion.div>
         </div>
       </div>

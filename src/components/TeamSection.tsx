@@ -9,8 +9,8 @@ export default function TeamSection() {
       image: "/img/helson.jpg", // Substitua pelo caminho da imagem
       description: "Responsável pelo desenvolvimento da IA e treinamento do modelo.",
       social: {
-        linkedin: "https://linkedin.com/in/joaosilva",
-        github: "https://github.com/joaosilva",
+        linkedin: "https://www.linkedin.com/in/helsongoncalves/",
+        github: "https://github.com/hellsinho",
         email: "helson.santos25@gmail.com",
       },
     },
@@ -20,9 +20,9 @@ export default function TeamSection() {
       image: "/img/italo.jpg", // Substitua pelo caminho da imagem
       description: "Responsável pela integração do modelo e criação do aplicativo mobile.",
       social: {
-        linkedin: "https://linkedin.com/in/mariasouza",
-        github: "https://github.com/mariasouza",
-        email: "maria.souza@insignia.com",
+        linkedin: "https://www.linkedin.com/in/%C3%ADtalo-pimentel-10765717b/",
+        github: "https://github.com/italopimentel",
+        email: "italo.pimentel@ufrpe.br",
       },
     },
   ];
