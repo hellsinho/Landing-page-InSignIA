@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Insignia",
+  icons:{
+    icon:"img/favicon/favicon.ico",
+  },
   description: "Tradução da Língua de Sinais em tempo real, utilizando IA.",
 };
 
